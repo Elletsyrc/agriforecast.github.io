@@ -1,0 +1,670 @@
+{
+  "source": "Department of Agriculture Bantay Presyo Monitoring - Weekly Average Prices May 11-16, 2026 PDF",
+  "prices": [
+    {
+      "commodity": "Kadiwa Rice-For-All - P20 Benteng Bigas Meron Naᵃ",
+      "price": 20.0,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Imported Commercial Rice - Basmati",
+      "price": 214.41,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Imported Commercial Rice - Glutinous",
+      "price": 61.33,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Imported Commercial Rice - Japonica/Jasponica",
+      "price": 63.82,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Imported Commercial Rice - Other Special Rice White Rice",
+      "price": 59.64,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Imported Commercial Rice - Premium 5% broken",
+      "price": 57.6,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Imported Commercial Rice - Well Milled 1-19% bran streak",
+      "price": 48.06,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Imported Commercial Rice - Regular Milled 20-40% bran streak",
+      "price": 42.5,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Local Commercial Rice - Glutinous",
+      "price": 76.32,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Local Commercial Rice - Other Special Rice White Rice",
+      "price": 60.38,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Local Commercial Rice - Premium 5% broken",
+      "price": 55.6,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Local Commercial Rice - Well Milled 1-19% bran streak",
+      "price": 50.27,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Local Commercial Rice - Regular Milled 20-40% bran streak",
+      "price": 45.2,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Corn Products - Corn (White) Cob, Glutinous",
+      "price": 80.56,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Corn Products - Corn (Yellow) Cob, Sweet Corn",
+      "price": 71.8,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Corn Products - Corn Grits (White, Food Grade)",
+      "price": 111.25,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Corn Products - Corn Grits (Yellow, Food Grade)",
+      "price": 111.25,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Corn Products - Corn Cracked (Yellow, Feed Grade)",
+      "price": 49.11,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Corn Products - Corn Grits (Feed Grade)",
+      "price": 46.76,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Legumes - Mungbean",
+      "price": 157.53,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fish Products - Alumahan (Indian Mackerel) Medium (4-6 pcs/kg)",
+      "price": 307.89,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fish Products - Bangus, Large Large (1-2 pcs)",
+      "price": 251.5,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fish Products - Bangus, Medium Medium (3-4 pcs/kg)",
+      "price": 230.6,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fish Products - Galunggong, Local Male, Medium (12-14 pcs/kg)",
+      "price": 240.27,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fish Products - Sardines (Tamban)",
+      "price": 156.56,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fish Products - Squid (Pusit Bisaya), Local Medium",
+      "price": 447.8,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fish Products - Tambakol (Yellow-Fin Tuna), Local Medium, Fresh or Chilled",
+      "price": 299.25,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fish Products - Tilapia Medium (5-6 pcs/kg)",
+      "price": 154.29,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Beef Brisket, Local Meat with Bones",
+      "price": 444.14,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Beef Rump, Local Lean Meat/ Tapadera",
+      "price": 494.72,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Pork Belly (Liempo), Local",
+      "price": 403.67,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Pork Belly (Liempo), Imported",
+      "price": 313.51,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Pork Picnic Shoulder (Kasim), Local",
+      "price": 348.26,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Pork Picnic Shoulder (Kasim), Imported",
+      "price": 254.17,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Whole Chicken, Local Fully Dressed",
+      "price": 193.87,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Chicken Egg (White, Pewee) 41-45 grams/pc",
+      "price": 6.12,
+      "unit": "pc",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Chicken Egg (White, Extra Small) 46-50 grams/pc",
+      "price": 6.72,
+      "unit": "pc",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Chicken Egg (White, Small) 51-55 grams/pc",
+      "price": 7.37,
+      "unit": "pc",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Chicken Egg (White, Medium) 56-60 grams/pc",
+      "price": 8.03,
+      "unit": "pc",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Chicken Egg (White, Large) 61-65 grams/pc",
+      "price": 8.62,
+      "unit": "pc",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Chicken Egg (White, Extra Large) 66-70 grams/pc",
+      "price": 9.18,
+      "unit": "pc",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Chicken Egg (White, Jumbo) 71> grams/pc",
+      "price": 9.82,
+      "unit": "pc",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Chicken Egg (Brown, Medium) Medium",
+      "price": 10.73,
+      "unit": "pc",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Chicken Egg (Brown, Large) Large",
+      "price": 12.13,
+      "unit": "pc",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Beef Products - Chicken Egg (Brown, Extra Large) Extra Large",
+      "price": 11.88,
+      "unit": "pc",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Lowland Vegetables - Ampalaya 4-5 pcs/kg",
+      "price": 118.32,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Lowland Vegetables - Chilli (Green), Local Haba/Panigang",
+      "price": 120.54,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Lowland Vegetables - Eggplant 3-4 Small Bundles",
+      "price": 84.59,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Lowland Vegetables - Native Pechay 3-4 Small Bundles",
+      "price": 78.55,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Lowland Vegetables - Pole Sitao 3-4 Small Bundles",
+      "price": 107.37,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Lowland Vegetables - Squash Suprema Variety",
+      "price": 63.82,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Lowland Vegetables - Tomato 15-18 pcs/kg",
+      "price": 62.24,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Bell Pepper (Green), Local Medium (151-250gm/pc)",
+      "price": 240.3,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Bell Pepper (Red), Local Medium (151-250gm/pc)",
+      "price": 243.85,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Broccoli, Local Medium (8-10 cm diameter/bunch hd)",
+      "price": 165.16,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Cauliflower, Local Medium (8-10 cm diameter/bunch hd)",
+      "price": 129.48,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Cabbage (Rare Ball) 510 gm - 1 kg/head",
+      "price": 58.85,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Cabbage (Scorpio) 750 gm - 1 kg/head",
+      "price": 65.33,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Cabbage (Wonder Ball) 510 gm - 1 kg/head",
+      "price": 58.82,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Carrots, Local 8-10 pcs/kg",
+      "price": 139.23,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Celery Medium (501-800 g)",
+      "price": 147.41,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Chayote Medium (301-400 g)",
+      "price": 64.62,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Habichuelas/Baguio Beans, Local",
+      "price": 123.6,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Pechay Baguio",
+      "price": 74.59,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Lettuce (Green Ice)",
+      "price": 264.52,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Lettuce (Iceberg) Medium (301-450 cm diameter/bunch hd)",
+      "price": 191.56,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - Lettuce (Romaine)",
+      "price": 236.89,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Highland Vegetables - White Potato, Local 10-12 pcs/kg",
+      "price": 97.04,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Spices - Chilli (Red), Local Tingala",
+      "price": 139.73,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Spices - Garlic, Native/Local",
+      "price": 400.0,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Spices - Garlic, Imported",
+      "price": 146.79,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Spices - Ginger, Local Fairly well-matured, Medium (150-300 gm)",
+      "price": 166.48,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Spices - Red Onion, Local 13-15 pcs/kg",
+      "price": 94.99,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Spices - Red Onion, Imported",
+      "price": 86.76,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Spices - White Onion, Local",
+      "price": 90.33,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Spices - White Onion, Imported",
+      "price": 90.32,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fruits - Avocado",
+      "price": 235.96,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fruits - Banana (Lakatan) 8-10 pcs/kg",
+      "price": 98.78,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fruits - Banana (Latundan) 10-12 pcs/kg",
+      "price": 75.37,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fruits - Banana (Saba)",
+      "price": 59.02,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fruits - Calamansi",
+      "price": 136.94,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fruits - Mango (Carabao) Ripe, 3-4 pcs/kg",
+      "price": 153.25,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fruits - Melon",
+      "price": 102.99,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fruits - Papaya Solo, Ripe, 2-3 pcs/kg",
+      "price": 73.72,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fruits - Pomelo",
+      "price": 176.7,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Fruits - Watermelon",
+      "price": 75.52,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Other Basic Commodities - Salt (Rock)",
+      "price": 21.15,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Other Basic Commodities - Salt (Iodized)",
+      "price": 41.23,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Other Basic Commodities - Sugar (Refined)",
+      "price": 82.15,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Other Basic Commodities - Sugar (Washed)",
+      "price": 75.07,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Other Basic Commodities - Sugar (Brown)",
+      "price": 73.06,
+      "unit": "kg",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Other Basic Commodities - Cooking Oil (Palm) 350 ml/bottle",
+      "price": 39.55,
+      "unit": "ml",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Other Basic Commodities - Cooking Oil (Palm) 1 Liter/bottle",
+      "price": 98.59,
+      "unit": "L",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Other Basic Commodities - Cooking Oil (Coconut) 350 ml/bottle",
+      "price": 59.95,
+      "unit": "ml",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    },
+    {
+      "commodity": "Other Basic Commodities - Cooking Oil (Coconut) 1 Liter/bottle",
+      "price": 161.73,
+      "unit": "L",
+      "market_area": "DA Bantay Presyo - NCR Weekly Average",
+      "record_date": "2026-05-16"
+    }
+  ]
+}

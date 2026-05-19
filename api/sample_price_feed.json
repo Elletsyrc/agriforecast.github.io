@@ -1,0 +1,26 @@
+{
+  "source": "Bundled sample data for API-sync testing",
+  "prices": [
+    {
+      "commodity": "Rice (Regular)",
+      "price": 43.00,
+      "unit": "/kg",
+      "market_area": "Daet Market",
+      "record_date": "2026-05-18"
+    },
+    {
+      "commodity": "Corn",
+      "price": 67.00,
+      "unit": "kg",
+      "market_area": "Daet Market",
+      "record_date": "2026-05-18"
+    },
+    {
+      "commodity": "Mango",
+      "price": 65.00,
+      "unit": "kg",
+      "market_area": "Daet Market",
+      "record_date": "2026-05-18"
+    }
+  ]
+}

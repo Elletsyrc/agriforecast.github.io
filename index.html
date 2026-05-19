@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriForecast - Farm Resource Management System</title>
+
+    <!-- UI Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css?v=4">
+
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- LOGIN PANEL -->
+    <div id="login-panel" class="fixed inset-0 z-50 flex items-center justify-center login-bg">
+        <div class="login-card">
+            <div class="login-header">
+                <div class="login-logo">
+                    <i data-lucide="sprout" class="w-7 h-7 text-white"></i>
+                </div>
+                <h1 class="login-title">AgriForecast</h1>
+                <p class="login-subtitle">Farm Resource Management System</p>
+            </div>
+
+            <form id="login-form" class="login-form">
+                <div class="form-group">
+                    <label class="form-label">Username</label>
+                    <div class="input-wrapper">
+                        <i data-lucide="user" class="input-icon"></i>
+                        <input type="text" id="username" class="form-input" placeholder="Enter username" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Password</label>
+                    <div class="input-wrapper">
+                        <i data-lucide="lock" class="input-icon"></i>
+                        <input type="password" id="password" class="form-input" placeholder="Password" required>
+                        <button type="button" class="password-toggle" onclick="togglePasswordVisibility()" aria-label="Show password" title="Show password">
+                            <i data-lucide="eye" class="w-4 h-4"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <label class="remember-row">
+                    <input type="checkbox" id="remember-me">
+                    <span>Remember me</span>
+                </label>
+
+                <button type="submit" class="btn-login">
+                    <i data-lucide="log-in" class="w-4 h-4"></i>
+                    Sign In to System
+                </button>
+            </form>
+
+        </div>
+
+        <div class="login-decor login-decor-1"></div>
+        <div class="login-decor login-decor-2"></div>
+    </div>
+
+    <!-- APP SHELL -->
+    <div id="app-shell" class="app-shell hidden">
+
+        <!-- SIDEBAR -->
+        <aside id="sidebar" class="sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-icon"><i data-lucide="sprout" class="w-5 h-5"></i></div>
+                <div>
+                    <div class="brand-name">AgriForecast</div>
+                    <div class="brand-tagline">Resource Hub</div>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <div class="nav-section-label">Main</div>
+                <button onclick="navigate('dashboard')" class="nav-item active-nav" data-view="dashboard">
+                    <i data-lucide="layout-dashboard" class="w-4 h-4"></i> Dashboard
+                </button>
+
+                <div class="nav-section-label">Records</div>
+                <button onclick="navigate('farmers')" class="nav-item" data-view="farmers">
+                    <i data-lucide="users" class="w-4 h-4"></i> Farmers & Cooperatives
+                </button>
+                <button onclick="navigate('distributions')" class="nav-item" data-view="distributions">
+                    <i data-lucide="package" class="w-4 h-4"></i> Input Distribution
+                </button>
+                <button onclick="navigate('assistance')" class="nav-item" data-view="assistance">
+                    <i data-lucide="hand-helping" class="w-4 h-4"></i> Assistance Monitoring
+                </button>
+
+                <div class="nav-section-label">Monitoring</div>
+                <button onclick="navigate('supply')" class="nav-item" data-view="supply">
+                    <i data-lucide="warehouse" class="w-4 h-4"></i> Food Supply
+                </button>
+
+                <button onclick="navigate('staple_food')" class="nav-item" data-view="staple_food">
+                    <i data-lucide="wheat" class="w-4 h-4"></i> Staple Foods
+                </button>
+
+                <button onclick="navigate('prices')" class="nav-item" data-view="prices">
+                    <i data-lucide="trending-up" class="w-4 h-4"></i> Price Monitoring
+                </button>
+                <button onclick="navigate('weather')" class="nav-item" data-view="weather">
+                    <i data-lucide="cloud-sun" class="w-4 h-4"></i> Weather Forecast
+                </button>
+                <button onclick="navigate('recommendations')" class="nav-item" data-view="recommendations">
+                    <i data-lucide="lightbulb" class="w-4 h-4"></i> Advisories
+                </button>
+
+                <div class="nav-section-label">Analytics</div>
+                <button onclick="navigate('reports')" class="nav-item" data-view="reports">
+                    <i data-lucide="bar-chart-2" class="w-4 h-4"></i> Reports
+                </button>
+
+                <div class="nav-section-label admin-only hidden" id="admin-section-label">System</div>
+                <button onclick="navigate('users')" class="nav-item admin-only hidden" data-view="users" id="admin-users-nav">
+                    <i data-lucide="shield-check" class="w-4 h-4"></i> User Management
+                </button>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <div class="user-avatar" id="user-avatar">A</div>
+                    <div>
+                        <div class="user-name" id="user-name-display">Admin</div>
+                        <div class="user-role" id="user-role-display">Administrator</div>
+                    </div>
+                </div>
+                <button onclick="logout()" class="logout-btn" type="button" aria-label="Log out" title="Log out">
+                    <i data-lucide="log-out" class="w-4 h-4"></i>
+                </button>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <div class="main-wrapper">
+            <header class="top-bar">
+                <div class="topbar-left">
+                    <div id="page-breadcrumb" class="breadcrumb">Dashboard</div>
+                </div>
+                <div class="topbar-right">
+                    <div class="topbar-date" id="topbar-date"></div>
+                    <button class="notif-btn" type="button" aria-label="View notifications" title="Notifications">
+                        <i data-lucide="bell" class="w-4 h-4"></i>
+                        <span class="notif-dot"></span>
+                    </button>
+                </div>
+            </header>
+
+            <main class="content-area" id="main-content"></main>
+        </div>
+    </div>
+
+    <!-- MODAL -->
+    <div id="modal-container" class="modal-overlay hidden">
+        <div class="modal-card">
+            <div class="modal-head">
+                <h2 id="modal-title" class="modal-title">Edit Item</h2>
+                <button onclick="closeModal()" class="modal-close" type="button" aria-label="Close modal" title="Close"><i data-lucide="x" class="w-5 h-5"></i></button>
+            </div>
+            <div id="modal-body" class="modal-body"></div>
+        </div>
+    </div>
+
+    <style>
+@media print {
+
+    /* Hide everything except the report */
+    body * {
+        visibility: hidden !important;
+    }
+
+    #main-content, #main-content * {
+        visibility: visible !important;
+    }
+
+    /* Remove sidebar, topbar, buttons */
+    .sidebar, .top-bar, .btn-primary, .btn-secondary, .nav-item {
+        display: none !important;
+    }
+
+    /* Make report full width */
+    #main-content {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* Fix Chart.js canvas scaling */
+    canvas {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    /* Prevent giant charts */
+    .card {
+        page-break-inside: avoid;
+    }
+}
+</style>
+
+    <!-- TOAST -->
+    <div id="toast" class="toast hidden">
+        <i data-lucide="check-circle" class="w-4 h-4 text-green-400"></i>
+        <span id="toast-msg">Action completed.</span>
+    </div>
+
+    <!-- APP LOGIC -->
+    <script src="app.js?v=12"></script>
+</body>
+</html>
