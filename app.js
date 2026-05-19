@@ -50,6 +50,11 @@ const ROLE_PERMISSIONS = {
     }
 };
 
+// app.js - Adaptive API Endpoints
+const PYTHON_MICROSERVICE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+    ? 'http://127.0.0.1:8000'
+    : 'https://analytics-production-YOUR-ID.up.railway.app'; // We will replace this with your actual Railway Python domain later
+
 function currentRole() {
     const role = (state.user?.role || "FARMER").toUpperCase();
     return role === "USER" ? "FARMER" : role;
